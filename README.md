@@ -1,16 +1,43 @@
-# React + Vite
+# 🌍 ROVE AI - Smart Travel Navigator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ROVE AI** is a high-end, AI-powered travel planning and navigation dashboard. It transforms any city name into a full-fledged visual voyage, featuring real-time map integration, sightseeing scores, and smart AI guidance.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **🚀 AI Itinerary Generator**: Instantly creates a multi-day plan based on real-world global sightseeing data.
+- **🗺️ Multi-View Map System**: Switch between Satellite, Terrain, Dark Mode, and Standard views.
+- **🧭 Live Navigation Path**: Draws the most efficient route between all your travel stops.
+- **📸 Photo Spot Discovery**: Automatically identifies the best "Instagrammable" locations along your route.
+- **🛡️ Voyage Quality Score**: Evaluates your trip for maximum sightseeing efficiency.
+- **✨ Cinematic UX**: A premium, glassmorphic interface with staggered animations and a high-visual auth experience.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19 + Vite
+- **Mapping**: Leaflet + React-Leaflet
+- **Imagery**: Esri World Imagery (Satellite)
+- **Data**: Nominatim (Geocoding) + Overpass API (POI Discovery)
+- **Animations**: Framer Motion
+- **Icons**: Lucide-React
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repo**:
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run locally**:
+   ```bash
+   npm run dev
+   ```
+
+## 🌐 Deployment
+
+This project is optimized for deployment on **Vercel**. Simply connect your GitHub repository to Vercel and it will handle the rest!
+
+---
+*Built with excellence by ROVE AI Team.*

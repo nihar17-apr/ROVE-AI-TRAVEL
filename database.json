@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1777647556338,
+      "name": "Nihar",
+      "email": "nrouthu@gitam.in",
+      "password": "Nihar172006@@"
+    }
+  ],
+  "trips": [
+    {
+      "id": 1777647574422,
+      "email": "nrouthu@gitam.in",
+      "destination": "kerala",
+      "date": "2026-05-01T14:59:34.422Z"
+    },
+    {
+      "id": 1777647615185,
+      "email": "nrouthu@gitam.in",
+      "destination": "kerala",
+      "date": "2026-05-01T15:00:15.185Z"
+    }
+  ]
+}
